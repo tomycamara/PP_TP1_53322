@@ -5,10 +5,11 @@ public class Main {
     EventoUniversitario evento2 = new EventoUniversitario("2", "segundo evento", 3000, true);
     EventoUniversitario evento3 = new EventoUniversitario("3", "tercer evento", 10000, false);
 
+    System.out.println("Cantidad de eventos creados: " + EventoUniversitario.getCantidadEventos());
 
     Estudiante estudiante1 = new Estudiante("53322", "Tomas");
-    Estudiante estudiante2 = new Estudiante("53782", "aaa");
-    Estudiante estudiante3 = new Estudiante("53232", "bbb");
+    Estudiante estudiante2 = new Estudiante("59782", "Jose");
+    Estudiante estudiante3 = new Estudiante("57232", "Andrea");
 
     Sala sala1 = new Sala(1, "primer sala");
     Sala sala2 = new Sala(2, "segunda sala");
@@ -47,8 +48,6 @@ public class Main {
     evento2.mostrarDatos();
     evento3.mostrarDatos();
 
-
-    System.out.println("Cantidad de eventos creados: " + EventoUniversitario.getCantidadEventos());
 
     }
 }

@@ -46,7 +46,7 @@ public abstract class Actividad {
 
     public void mostrarInscripciones(){
         for (Inscripcion i: inscripciones) {
-
+            i.mostrarDatos();
         }
 
     }
